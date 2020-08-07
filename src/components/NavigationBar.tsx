@@ -9,11 +9,19 @@ const NavContainer = styled.div`
   justify-content: space-between;
 
   margin: 2rem 6rem;
+
+  @media screen and (max-width: 760px) {
+    flex-direction: column;
+  }
 `;
 
 const NavItemListStyle = styled.div`
   display: flex;
   flex-direction: row;
+
+  @media screen and (max-width: 760px) {
+    flex-direction: column;
+  }
 `;
 
 const NavigationBar: React.FC = () => {

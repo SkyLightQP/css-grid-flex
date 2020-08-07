@@ -11,6 +11,11 @@ const ItemStyle = styled.div`
   &:hover {
     background-color: #eeeeee;
   }
+
+  @media screen and (max-width: 760px) {
+    padding: 0.8rem 0;
+    padding-left: 0.5rem;
+  }
 `;
 
 const NavItem: React.FC = ({ children }) => {
