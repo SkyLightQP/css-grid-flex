@@ -16,6 +16,13 @@ const ItemStyle = styled.div`
     padding: 0.8rem 0;
     padding-left: 0.5rem;
   }
+
+  @media (prefers-color-scheme: dark) {
+    &:hover {
+      background-color: #fff;
+      color: black;
+    }
+  }
 `;
 
 const NavItem: React.FC = ({ children }) => {

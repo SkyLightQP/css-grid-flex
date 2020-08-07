@@ -15,6 +15,11 @@ const Wrapper = styled.div`
   align-self: center;
 
   box-shadow: 0px 2px 20px #dedede;
+
+  @media (prefers-color-scheme: dark) {
+    color: black;
+    box-shadow: 0px 2px 10px #dedede;
+  }
 `;
 
 const NoticeBar: React.FC = ({ children }) => {
